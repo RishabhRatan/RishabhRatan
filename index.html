@@ -90,6 +90,8 @@
    		background-size: 100% 100%;
    		padding-top: 0px;
    		padding-bottom: 0px;
+   		font-family: "Times New Roman", Times, serif;	
+;
    }
    .bg-4 
    { 
@@ -99,7 +101,9 @@
   	}
   	.bg-5
   	{
-  		color: #af0000;
+  		color: white;
+  		background-color: black;
+  		opacity: 0.6;
   	}
   	.slideanim {visibility:hidden;}
   	.slide 
@@ -187,8 +191,8 @@
 			<div>
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<b><ul class="nav navbar-nav navbar-right">
-						<li id="me"><a href="quotation.xlsx">Quotation(Rates)</a></li>
-						<li><a href="#">Place Order</a></li>
+						<li id="me"><a href="quotation.pdf">Quotation(Rates)</a></li>
+						<li><a href="order.html">Place Order</a></li>
 						<li><a href="#cu">Contact Us</a></li>
 					</ul></b>
 			</div>
@@ -201,14 +205,16 @@
 		<br/><br/><br/><br/>
 			<div class=" container jumbotron bg-2 slideanim" style="color:#f4a442;">
 				
-				<a href="quotation.xlsx" alt="Quotation"><p class="links" style="color:white; font-family: 'MyFirstFont'; font-size: 150% ">Click here for our Quotation</p></a>
+				<a href="quotation.pdf" alt="Quotation"><p class="links" style="color:white; font-family: 'MyFirstFont'; font-size: 150% ">Click here for our Quotation</p></a>
 				<p style="color:white; font-family: 'MyFirstFont'; font-size: 150% ">OR</p>
-				<a href="#" alt="Order"><p style="color:white; font-family: 'MyFirstFont'; font-size: 150%" class="links">Place Order</p></a>
+				<a href="order.html" alt="Order"><p style="color:white; font-family: 'MyFirstFont'; font-size: 150%" class="links">Place Order</p></a>
 			</div>
 	</div>
 	<div class="bg-3" id="cu">
-	<br/>
-		<h1 style="">&nbsp;&nbsp;&nbsp;Contact us and we'll get back to you within 24 hours.</h1>
+		<br/>
+		<center>
+			<h1 >&nbsp;&nbsp;&nbsp;<b>Contact us and we'll get back to you within 24 hours.</b></h1>
+		</center>
 		<div id="contact" class="container slideanim">
 				
 			<form class="form-horizontal" action="https://formspree.io/jainatishay.j@gmail.com" method="POST" role="form" data-toggle="validator">
@@ -231,10 +237,10 @@
 				<input class="btn btn-primary" type="submit" id="send" value="Send"	>
 				<input type="hidden" name="_next" value="">
 			</form>
-			<div class="container-fluid bg-5" style="text-align: center">
+			<div class=" container-fluid jumbotron bg-5" style="text-align: center; width:40%; border-radius: 20%;">
 				<b><i><h2>Or feel free to call us</h2>
 				<br/>
-				<p>Rishabh Jain - 7793098640, 9829080157</p>
+				<p>Rishabh Jain - 7793098640,9829080157</p>
 				<p>Ajit Jain - 7877730617</p></b></i>
 				
 				<p>1376,Pandit Shivdeen Ka Rasta</p>
