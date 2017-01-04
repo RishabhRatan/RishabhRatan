@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Shree Mahaveer Enterprises</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="keywords" content="Shri,Mahaveer,Enterprises,Shri Mahaveer ,Mahaveer Enterprises" />
+  	<meta name="description" content="Shri Mahaveer Enterprises."/>
+  	<meta name="author" content="Rishabh Jain"/>
+  	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+	body 
+	{
+    	font: 400 30px Lato, sans-serif;
+    	line-height: 1.8;
+    	color:black;
+	}
+
+	p 
+	{
+		font-size: 22px;
+	}
+	.margin 
+	{
+		margin-bottom: 45px;
+	}
+	.links
+	{
+		color:#23a37a;
+	}
+	.container-fluid 
+	{
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+	}
+	.navbar {
+      margin-bottom: 0;
+      background-color: #335472;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: 'hel';
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+	li
+   {
+   		font-size: 150%;
+   		list-style-type: none;
+   }
+   .links
+  	{
+  		font-size: 100%;
+  	}
+   .bg-3
+   {
+   		background-image: url(21.jpg);
+   		background-position: center;
+   		background-repeat: no-repeat;
+   		background-size: 100% 100%;
+   		padding-top: 0px;
+   		padding-bottom: 0px;
+   }
+   .bg-4 
+   { 
+      background-color: #2f2f2f; 
+      color: #fff;
+      text-align: center;
+  	}
+  	.bg-5
+  	{
+  		color: white;
+  		background-color: black;
+  		opacity: 0.6;
+  	}
+  	.slideanim {visibility:hidden;}
+  	.slide 
+  	{
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+    }
+  	@keyframes slide 
+  	{
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+  @font-face 
+  {
+    font-family: 'myFirstFont';
+    src: url(Be.ttf);
+  }
+  @font-face
+  {
+
+  		font-family: 'Hel';
+  		src: url(Vtks.ttf);
+  }
+
+	</style>
+	<script>
+  	$(document).ready(function(){
+  		
+		$(".links").on({
+   			mouseenter: function(){
+        		$(this).css("font-size", "250%");
+    		}, 
+    		mouseleave: function(){
+        		$(this).css("font-size", "150%");
+    		}
+		});
+  </script>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Shree Mahaveer Enterprises</a>
+			</div>
+			<div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<b><ul class="nav navbar-nav navbar-right">
+						<li id="me"><a href="quotation.pdf">Quotation(Rates)</a></li>
+						<li><a href="#">Place Order</a></li>
+						<li><a href="#cu">Contact Us</a></li>
+					</ul></b>
+			</div>
+		</div>
+	</nav>
+	<div class="container-fluid" id="order">
+      <br/>
+    <center>
+      <h1 >&nbsp;&nbsp;&nbsp;<b>Contact us and we'll get back to you within 24 hours.</b></h1>
+    </center>
+    <div id="contact" class="container">
+        
+      <form class="form-horizontal" action="https://formspree.io/jainatishay.j@gmail.com" method="POST" role="form" data-toggle="validator">
+        <div class="form-group">
+            <label for="usr">Name</label>
+            <input type="text" class="form-control"  name="name" id="name" placeholder="Enter Name" style="width:60%" required>
+        </div>
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" name="_replyto" id="email" placeholder="Enter Email" style="width:60%" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="phone" class="form-control" name="_replyto" id="phone" placeholder="Enter Phone Number" style="width:60%" required>
+        </div>        
+        <div class="form-group">
+            <label for="message">What's up?</label>
+            <textarea class="form-control" rows="5" name="message" style="width:60%" placeholder="Write your QUERY here" required></textarea>
+        </div>
+        <input class="btn btn-primary" type="submit" id="send" value="Submit" >
+        <input type="hidden" name="_next" value="">
+      </form>
+    </div>
+  </div>
+	<div class="bg-3" id="cu">
+    <br/>
+    <center>
+      <h1 >&nbsp;&nbsp;&nbsp;<b>Contact us and we'll get back to you within 24 hours.</b></h1>
+    </center>
+    <div id="contact" class="container slideanim">
+        
+      <form class="form-horizontal" action="https://formspree.io/jainatishay.j@gmail.com" method="POST" role="form" data-toggle="validator">
+        <div class="form-group">
+            <label for="usr">Name</label>
+            <input type="text" class="form-control"  name="name" id="name" placeholder="Enter Name" style="width:60%" required>
+        </div>
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" name="_replyto" id="email" placeholder="Enter Email" style="width:60%" required>
+        </div>
+        <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="phone" class="form-control" name="_replyto" id="phone" placeholder="Enter Phone Number" style="width:60%" required>
+        </div>        
+        <div class="form-group">
+            <label for="message">What's up?</label>
+            <textarea class="form-control" rows="5" name="message" style="width:60%" placeholder="Write your QUERY here" required></textarea>
+        </div>
+        <input class="btn btn-primary" type="submit" id="send" value="Send" >
+        <input type="hidden" name="_next" value="">
+      </form>
+      <div class=" container-fluid jumbotron bg-5" style="text-align: center; width:40%; border-radius: 20%;">
+        <b><i><h2>Or feel free to call us</h2>
+        <br/>
+        <p>Rishabh Jain - 7793098640,9829080157</p>
+        <p>Ajit Jain - 7877730617</p></b></i>
+        
+        <p>1376,Pandit Shivdeen Ka Rasta</p>
+        <p>Nr. Shanti Niketan School</p>
+        <p>Kishanpole Bazar,Jaipur</p>
+      </div>
+    </div>
+  </div>
+	<footer class="container-fluid bg-4">
+		<p>&copy 2017 Shree Mahaveer Enterprises.</p> 
+	</footer>
+	<script>
+	$(document).ready(function(){
+	 
+	  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+	    if (this.hash !== "") {
+	      event.preventDefault();
+
+	      var hash = this.hash;
+
+	      $('html, body').animate({
+	        scrollTop: $(hash).offset().top
+	      }, 900, function(){
+	   
+	        window.location.hash = hash;
+	      });
+	    } 
+	  });
+	  
+	  $(window).scroll(function() {
+	    $(".slideanim").each(function(){
+	      var pos = $(this).offset().top;
+
+	      var winTop = $(window).scrollTop();
+	        if (pos < winTop + 600) {
+	          $(this).addClass("slide");
+	        }
+	    });
+	  });
+	})
+	</script>
+
+</body>
+
+</head>
